@@ -3,10 +3,11 @@ body{
 }
 
 .table {
+    width: 400px;
+    margin: auto;
     border: 3px solid red;
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
 }
 
 .square {
@@ -14,6 +15,7 @@ body{
     height: 100px;
     width: 100px;
     box-sizing: border-box;
+    background-color: beige;
 }
 
 .goblin {
