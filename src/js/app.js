@@ -1,9 +1,7 @@
-const items = document.querySelectorAll('.square');
+import GameLogic from './gameLogic.js';
 
-export default function renderImg() {
-  const img = document.createElement('img');
-  const random = Math.floor(Math.random() * (items.length - 1));
-  img.src = './image/goblin.png';
-  img.classList.add('goblin');
-  items[random].insertBefore(img, null);
-}
+const table = document.querySelector('.table');
+
+const gameLogic = new GameLogic(table);
+
+gameLogic.init();
