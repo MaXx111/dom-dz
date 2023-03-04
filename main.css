@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+.table {
+    width: 400px;
+    margin: auto;
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.goblin {
+    max-width: 100px;
+}
